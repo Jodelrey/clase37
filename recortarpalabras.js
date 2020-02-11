@@ -15,4 +15,4 @@ for(i=0; i<listaArray.length; i++){
     nuevaLista.push(listaArray[i].slice(0, -recorte));
 }
 
-alert(nuevaLista);
+alert(`Las palabras recortadas son ${nuevaLista}`);
